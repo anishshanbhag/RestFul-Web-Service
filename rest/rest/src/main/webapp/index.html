@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Hello App Engine</title>
+  </head>
+
+  <body>
+    <h1>Hello App Engine!</h1>
+    
+	<div class="container">
+	  <h2>
+	    Create a new customer
+	  </h2>
+	
+	  <form method="POST" action="/create">
+	    <div>
+	      <label for="username">Username</label>
+	      <input type="text" name="username" id="username" size="40" value="" class="form-control" />
+	    </div>
+	
+	    <div>
+	      <label for="info">Info</label>
+	      <input type="text" name="info" id="info" size="100" value="" class="form-control" />
+	    </div>
+		
+	    <button type="submit">Save</button>
+	  </form>
+	  
+	  <h2>Enter customer name to get details</h2>
+	  
+	  <form method="GET" action="/value">
+	  	<div>
+	  		<label for="username">Username</label>
+	  		<input type="text" name="username" id="username1" size="40" value="" class="form-control"/>
+	  	</div>
+	  	 <button type="submit">Click Here</button>
+	  </form>
+	</div>    
+    
+  </body>
+</html>
