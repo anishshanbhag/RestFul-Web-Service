@@ -9,7 +9,14 @@ These instructions will get you a copy of the project up and running on your loc
  ## Prerequisites
   Have an account on google app engine to host the project and set up a google cloud plugin on the IDE.
   
- ##Set up
- Download the project by using git
+ ## Set up
+ - Download the project using git 
+ - Create an account here https://cloud.google.com/appengine/
+ - Create a project with an Instance ID.
+ - Create SQL instance .
+ 
+ 
+ 
+ 
  
   
