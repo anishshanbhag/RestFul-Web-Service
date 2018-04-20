@@ -10,12 +10,21 @@ These instructions will get you a copy of the project up and running on your loc
   Have an account on google app engine to host the project and set up a google cloud plugin on the IDE.
   
  ## Set up
- - Download the project using git 
+ - Download the project using git https://github.com/anishshanbhag/RestFul-Web-Service.git
  - Create an account here https://cloud.google.com/appengine/
  - Create a project with an Instance ID.
- - Create SQL instance .
+ - Create SQL instance on Goodle Cloud Sql Database.
  
+ ## Deploy
+ Using Terminal
+ - cd [your project directory]/prject
+ - gcloud config set project YOUR_PROJECT_ID
+   mvn appengine:deploy
+ - gcloud app browse (to view the project)
  
+ Using plugin in IDE
+ - Right click on project and select deploy to app engine standards.
+ - Select the app engine project with instance Id using which you want to deploy.
  
  
  
