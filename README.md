@@ -1,5 +1,5 @@
 # RestFul-Web-Service
-A simple restful web service for App Engine using google cloud sql database
+A simple restful web service for App Engine using google cloud sql database which supports GET and POST requests.
 
 ![screenshots](https://user-images.githubusercontent.com/28942363/39026201-56944b00-4469-11e8-8cf1-06806b875725.png)
 
@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
  
  ## Deploy
  Using Terminal
- - cd [your project directory]/prject
+ - cd [your project directory]/project
  - gcloud config set project YOUR_PROJECT_ID
    mvn appengine:deploy
  - gcloud app browse (to view the project)
